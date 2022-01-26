@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>ARTSE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+    <!-- NavBar Scroll -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="w-100" src="assets/img/logo2.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Artistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Notícias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Vídeos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Artista, obra, estilo, ..." aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
+          </form>
+        </div>
+    </div>
+    </nav>
+    <!-- /NavBar Scroll -->
+    <!-- Carousel  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/Genevieve Cohn/Banner2_1280x600.jpg" class="d-block w-100" alt="Genevieve Cohn">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Genevieve Cohn</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis modi earum, accusantium quae optio, 
+              molestiae officiis illumest nostrum reiciendis cumque harum dolore porro. Maiores voluptatem doloremque 
+              ea illum deleniti.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/Bruno Novelli/Banner6_1280x600.jpg" class="d-block w-100" alt="Bruno Novelli">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Bruno Novelli</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, hic assumenda, dignissimos, accusantium 
+              voluptas fuga sit asperiores officia quas ut eaque? Corrupti commodi voluptatum animi eligendi rerum 
+              nihil vero quaerat?</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/Javier Ruíz Pérez/Banner5_1280x600.jpg" class="d-block w-100" alt="Javier Ruíz Pérez">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Javier Ruíz Pérez</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero at ullam nesciunt, et iusto veritatis 
+            totam eum ratione illo minima necessitatibus non alias dolore nobis numquam, ea quo ducimus impedit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- /Carousel -->
+    <!-- Card -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/img/Amoako Boafo/Cards.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Amoako Boafo</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/img/Christian Eisenberger/Cards3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Christian Eisenberger</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/img/Bruno Novelli/Cards.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bruno Novelli</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- /Card -->
+    <!-- Vídeo -->
+    <div class="container mb-50 p-2">
+      <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/SZTHeMcVsxE" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      ></iframe>
+    </div>
+    <!-- /Vídeo -->
+    <!-- Contato -->
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@email.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div>
+      <button class="btn btn-outline-dark" type="submit">Enviar</button>
+    </div>
+
+    <!-- /Contato -->
+    <!-- Footer -->
+
+
+    
+    <!-- /Footer -->
+ 
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <!-- Javascript-->
+    <script src="assets/js/script.js"></script>
+    <!-- /Javascript-->
+  </body>
+</html>
